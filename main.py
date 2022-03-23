@@ -4,12 +4,12 @@ from src.core_manager import CoreManager
 if __name__ == '__main__':
     simulation_parameters = {
         'target': 'fluid',
-        'case': 3,
+        'case': 2,
         'resolution': (100, 100, 100),
         'dt': 1.0,
         'dx': 1.0,
         'tau': 1.0,
-        'Re': 100.0,
+        'Re': 3000.0,
         'total_steps': 10000,
         'make_video': True,
     }
